@@ -37,19 +37,10 @@
 			     <executions>
 			         <execution>
 				       <goals>
-				          <goal>build-info</goal>
+				          <goal>build-image</goal>
 				       </goals>
 				 </execution>
 			     </executions>
-			     <configuration>
-			         <image>
-				       <builder>paketobuildpacks/builder:tiny</builder>
-				            <env>
-				 	       <BP_NATIVE_IMAGE>true</BP_NATIVE_IMAGE>
-				            </env>
-				 </image>
-			     </configuration>
-		             <configuration>
 				 <docker>
 				     <host>tcp://192.168.100.26:2376</host>
 				     <tlsVerify>true</tlsVerify>
