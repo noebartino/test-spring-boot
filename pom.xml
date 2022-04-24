@@ -48,7 +48,15 @@
 				 	       <BP_NATIVE_IMAGE>true</BP_NATIVE_IMAGE>
 				            </env>
 				 </image>
-		             </configuration>
+			     </configuration>
+		             <configuration>
+				 <docker>
+				     <host>tcp://192.168.100.26:2376</host>
+				     <tlsVerify>true</tlsVerify>
+				     <certPath>/home/noe/.minikube/certs</certPath>
+				 </docker>
+			     </configuration>
+			
 			</plugin>
 			
 		</plugins>
