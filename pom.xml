@@ -34,13 +34,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-				        <docker>
-						<host>192.168.49.2:2376</host>
-					        <tlsVerify>true</tlsVerify>
-					        <certPath>/home/noe/.minikube/certs</certPath>
-					</docker>
-    		                </configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>build-image</goal>
+						</goals>
+					</execution>
+				</executions>
                         </plugin>
 		</plugins>
 	</build>
