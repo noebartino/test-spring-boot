@@ -37,7 +37,7 @@
 				<configuration>
 					<docker>
 						<host>tcp://localhost:2376</host>
-						<tlsVerify>true</tlsVerify>
+						<tlsVerify>false</tlsVerify>
 						<certPath>/etc/docker</certPath>
 					</docker>
 		                </configuration>
