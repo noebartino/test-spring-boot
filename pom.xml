@@ -37,7 +37,7 @@
 				<configuration>
                     			<docker>
                         			<host>tcp://127.0.0.1:53181</host>
-                        			<tlsVerify>true</tlsVerify>
+                        			<tlsVerify>false</tlsVerify>
                         			<certPath>C:\Users\noe.gutierrez\.minikube\certs</certPath>
                     			</docker>
                 		</configuration>
