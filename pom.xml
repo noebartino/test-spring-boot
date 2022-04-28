@@ -36,13 +36,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
                     			<docker>
-                        			
-						<builderRegistry>
-                            				<username>noeadahi</username>
-                            				<password>e3cf178b-f8cc-4385-9791-f987dfbb3438</password>
-                            				<url>https://hub.docker.com/repository/docker/noeadahi/spring-boot-test/v1/</url>
-                            				<email>noebartino@gmail.com</email>
-                        			</builderRegistry>
+                        		       <host>tcp://192.168.49.2:2376</host>
+                        		       <tlsVerify>true</tlsVerify>
+                        		       <certPath>/etc/docker/certs.d/</certPath>
+                        		       <certPath>/etc/docker</certPath>
                     			</docker>
                 		</configuration>
 				
