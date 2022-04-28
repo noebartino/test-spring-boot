@@ -36,9 +36,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
                     			<docker>
-                        			<host>tcp://0.0.0.0:2376</host>
+                        			<host>tcp://172.17.0.1:2376</host>
                         			<tlsVerify>false</tlsVerify>
-                        			<certPath>C:\Users\noe.gutierrez\.minikube\certs</certPath>
+                        			<certPath>/etc/docker</certPath>
                     			</docker>
                 		</configuration>
 				
