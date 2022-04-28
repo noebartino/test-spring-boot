@@ -36,9 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
                     			<docker>
-                        			<host>tcp://192.168.49.2:2376</host>
-                        			<tlsVerify>true</tlsVerify>
-                        		        <certPath>/etc/docker</certPath>
+                        			
 						<builderRegistry>
                             				<username>noeadahi</username>
                             				<password>e3cf178b-f8cc-4385-9791-f987dfbb3438</password>
