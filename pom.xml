@@ -37,7 +37,7 @@
 				<configuration>
                     			<docker>
                         			<builderRegistry>
-                            				<token></token>
+                            				<token>e3cf178b-f8cc-4385-9791-f987dfbb3438</token>
                         			</builderRegistry>
                     			</docker>
                 		</configuration>
